@@ -20,24 +20,21 @@
 
 ### 二、项目运行效果
 
-![1](./Screenshots/1.png = 250x440)
-![2](./Screenshots/2.png = 250x440)
-![3](./Screenshots/3.png = 250x440)
-![4](./Screenshots/4.png = 250x440)
-![5](./Screenshots/5.png = 250x440)
-![6](./Screenshots/6.png = 250x440)
-![7](./Screenshots/7.png)
-![8](./Screenshots/8.png)
-![9](./Screenshots/9.png)
-![10](./Screenshots/10.png)
-![11](./Screenshots/11.png)
-![12](./Screenshots/12.png)
-![13](./Screenshots/13.png)
-![14](./Screenshots/14.png)
+<img src="./Screenshots/1.png" width = "250" height = "440" />
+<img src="./Screenshots/2.png" width = "250" height = "440" />
+<img src="./Screenshots/3.png" width = "250" height = "440" />
+<img src="./Screenshots/4.png" width = "250" height = "440" />
+<img src="./Screenshots/5.png" width = "250" height = "440" />
+<img src="./Screenshots/6.png" width = "250" height = "440" />
 
 
 
 
 
+<br/>
+
+<div align=center>
+<img src="./Screenshots/14.png" width=250 height=440 />
+</div>
 
 
