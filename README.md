@@ -1,15 +1,18 @@
 ## FreeChat(畅聊，你我更接近)
 
+[![FreeChat](https://img.shields.io/badge/FreeChat-v1.0-brightgreen.svg)](https://github.com/Yuziquan/FreeChat)
+[![license](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/Yuziquan/FreeChat/blob/master/LICENSE)
+
+<br/>
+
+<img src="/Screenshots/app_icon.png" width=150 height=150 />
+
+
 > 鉴于一个QQ好友私聊我需要IM APP的源码，遂将之前写的一个IM APP进行整理开源。其中还有部分细节还未实现，群聊成员模块的显示有个bug还未修复，希望以后自己有空再去写一下。
 >
 > > 后期有空的话打算使用 **Android端+纯后端** 实现一款不借助第三方即时通讯框架的IM app。
 
 ### 一、项目功能简介
-
-![1](./Screenshots/app_icon.png)
-
-
-
 一款IM（即时通讯）APP，界面微仿微信，通过集成环信的SDK和EaseUI实现了其中的即时通讯功能，自己实现了MyIM中的业务逻辑处理和界面设计实现。实现的核心功能有：
 
 * 单聊
