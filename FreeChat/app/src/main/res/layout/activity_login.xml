@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_login_and_register_gradient">
+
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/cv_login"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                <View
+                        android:layout_alignParentStart="true"
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"
+                        android:background="#2fa881"
+                        android:id="@+id/view"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="43dp"
+                        android:text="@string/please_login"
+                        android:textColor="#FFCC00"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/view"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="50dp"
+                    android:paddingEnd="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                <android.support.design.widget.TextInputLayout
+                        android:textColorHint="#c5c5c5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <EditText
+                            android:id="@+id/et_user_name"
+                            android:textSize="18sp"
+                            android:hint="@string/user_name"
+                            android:textColor="#2fa881"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:background="@drawable/selector_bg_edit"
+                            android:textCursorDrawable="@drawable/bg_input_cursor"
+                            android:paddingBottom="2dp"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:paddingStart="50dp"
+                    android:paddingEnd="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                <android.support.design.widget.TextInputLayout
+                        android:textColorHint="#c5c5c5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <EditText
+                            android:id="@+id/et_password"
+                            android:textSize="18sp"
+                            android:hint="@string/password"
+                            android:textColor="#2fa881"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPassword"
+                            android:background="@drawable/selector_bg_edit"
+                            android:textCursorDrawable="@drawable/bg_input_cursor"
+                            android:paddingBottom="2dp"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                <Button
+                        android:id="@+id/btn_login"
+                        android:background="@drawable/btn_shape"
+                        android:stateListAnimator="@drawable/state_list_animator_z"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:text="@string/login"/>
+
+            </RelativeLayout>
+
+            <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forgot_your_password"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+            android:id="@+id/tv_login_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_above="@id/cv_login"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/app_name"
+            android:textSize="70sp"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="normal"
+            android:src="@drawable/plus"
+            android:transitionName="loginFab"
+            android:layout_alignTop="@id/cv_login"
+            android:layout_marginTop="25dp"
+            android:layout_alignEnd="@id/cv_login"
+            android:layout_marginEnd="-20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!--屏幕主界面-->
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+            <View
+                    android:id="@+id/none_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:background="@drawable/blue_gradient_bg"/>
+
+            <!--使用theme指定Toolbar单独使用深色主题，而不是整个程序的淡色主题，否则Toolbar中文字颜色为黑色，难看。
+            。为Toolbar指定了深色主题后，若其有菜单按钮，则弹出的菜单也会使用深色主题。故这里的popupTheme的值设置为
+            淡色主题，使得弹出的菜单单独使用淡色主题。-->
+            <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:layout_below="@+id/none_view"-->
+            <!--android:background="@color/toolbar_bg_color"-->
+            <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+            <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>-->
+
+            <LinearLayout
+                    android:id="@+id/activity_main_interface"
+                    android:layout_below="@+id/none_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <android.support.v4.view.ViewPager
+                        android:id="@+id/view_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+
+                <com.ashokvarma.bottomnavigation.BottomNavigationBar
+                        android:id="@+id/bottom_navigation_bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <!--侧滑菜单-->
+    <!--layout_gravity的值为start表示会根据系统语言将滑动菜单放置在正确的位置（左边或右边）-->
+    <android.support.design.widget.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/nav_menu"/>
+
+</android.support.v4.widget.DrawerLayout>

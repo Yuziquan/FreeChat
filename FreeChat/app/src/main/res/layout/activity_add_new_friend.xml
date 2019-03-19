@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <View
+            android:id="@+id/none_view"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@drawable/blue_gradient_bg"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/blue_gradient_bg">
+
+
+        <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/back"/>
+
+        <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_back"
+                android:layout_centerVertical="true"
+                android:textSize="17sp"
+                android:textColor="@android:color/white"
+                android:text="@string/back"/>
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="17sp"
+                android:textColor="@android:color/white"
+                android:text="@string/add_new_friend"/>
+
+        <ImageView
+                android:id="@+id/iv_search_new_friend"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:src="@drawable/search"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.SearchView
+            android:id="@+id/sv_new_friend_name"
+            android:autofillHints="@string/input_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </android.support.v7.widget.SearchView>
+
+
+    <LinearLayout
+            android:id="@+id/ll_add_new_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:visibility="invisible"
+            android:orientation="vertical">
+
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#DDDDDD"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+
+            <ImageView
+                    android:id="@+id/iv_add_new_friend"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/default_avatar"/>
+
+            <TextView
+                    android:id="@+id/tv_new_friend_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/iv_add_new_friend"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="xxx"/>
+
+            <Button
+                    android:id="@+id/btn_add_new_friend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/add"/>
+
+        </RelativeLayout>
+
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#DDDDDD"/>
+
+    </LinearLayout>
+
+</LinearLayout>

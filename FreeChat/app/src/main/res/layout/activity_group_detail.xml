@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <View
+            android:id="@+id/none_view"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@drawable/blue_gradient_bg"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/blue_gradient_bg">
+
+
+        <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/back"/>
+
+        <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_back"
+                android:layout_centerVertical="true"
+                android:textSize="17sp"
+                android:textColor="@android:color/white"
+                android:text="@string/back"/>
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="17sp"
+                android:textColor="@android:color/white"
+                android:text="@string/group_detail"/>
+
+    </RelativeLayout>
+
+    <GridView
+            android:id="@+id/gv_group_detail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:numColumns="4"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"/>
+
+    <Button
+            android:id="@+id/btn_leave_group"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+            android:text="@string/leave_group"/>
+
+</LinearLayout>

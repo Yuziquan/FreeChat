@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bnb_active_color">#00FFFF</color>
+    <color name="toolbar_bg_color">#007FFF</color>
+    <color name="header_bg_color">#32CD32</color>
+    <color name="nav_menu_item_checked_color">#007FFF</color>
+    <color name="nav_menu_item_unchecked_color">#666666</color>
+</resources>

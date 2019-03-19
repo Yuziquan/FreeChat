@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:id="@+id/ll_new_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:src="@drawable/new_friend"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginLeft="10dp"
+                  android:textSize="16sp"
+                  android:textColor="@android:color/black"
+                  android:text="@string/new_friend"/>
+
+        <ImageView
+                android:id="@+id/iv_contact_red_dot"
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:src="@android:drawable/ic_notification_overlay"/>
+
+    </LinearLayout>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#DDDDDD"/>
+
+
+    <LinearLayout
+            android:id="@+id/ll_group_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:src="@drawable/group_chat"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginLeft="10dp"
+                  android:textSize="16sp"
+                  android:textColor="@android:color/black"
+                  android:text="@string/group_chat"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

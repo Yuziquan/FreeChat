@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <View
+            android:id="@+id/none_view"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@drawable/blue_gradient_bg"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/blue_gradient_bg">
+
+
+        <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/back"/>
+
+        <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_back"
+                android:layout_centerVertical="true"
+                android:textSize="17sp"
+                android:textColor="@android:color/white"
+                android:text="@string/back"/>
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="17sp"
+                android:textColor="@android:color/white"
+                android:text="@string/create_group"/>
+
+    </RelativeLayout>
+
+    <EditText
+            android:id="@+id/et_group_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/a_group_name"
+            android:layout_margin="5dp"/>
+
+    <EditText
+            android:id="@+id/et_group_intro"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="start"
+            android:hint="@string/group_intro"
+            android:layout_margin="5dp"/>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="5dp">
+
+        <TextView android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:text="@string/is_public"/>
+
+        <CheckBox
+                android:id="@+id/cb_is_public"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="5dp">
+
+        <TextView android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:text="@string/is_open_group_invitation"/>
+
+        <CheckBox
+                android:id="@+id/cb_is_open_group_invitation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/btn_create_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_margin="5dp"
+            android:text="@string/create"
+            android:background="@android:color/holo_green_light"/>
+
+
+</LinearLayout>

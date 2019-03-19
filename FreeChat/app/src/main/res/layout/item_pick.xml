@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:padding="5dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <CheckBox
+            android:id="@+id/cb_pick"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+    <ImageView android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:layout_marginLeft="10dp"
+               android:layout_gravity="center_vertical"
+               android:src="@drawable/default_avatar"/>
+
+    <TextView
+            android:id="@+id/tv_contact_name"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="xxx"/>
+
+</LinearLayout>
