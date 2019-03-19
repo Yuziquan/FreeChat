@@ -20,12 +20,12 @@
 
 ### 二、项目运行效果
 
-![1](./Screenshots/1.png)
-![2](./Screenshots/2.png)
-![3](./Screenshots/3.png)
-![4](./Screenshots/4.png)
-![5](./Screenshots/5.png)
-![6](./Screenshots/6.png)
+![1](./Screenshots/1.png = 250x440)
+![2](./Screenshots/2.png = 250x440)
+![3](./Screenshots/3.png = 250x440)
+![4](./Screenshots/4.png = 250x440)
+![5](./Screenshots/5.png = 250x440)
+![6](./Screenshots/6.png = 250x440)
 ![7](./Screenshots/7.png)
 ![8](./Screenshots/8.png)
 ![9](./Screenshots/9.png)
@@ -39,73 +39,5 @@
 
 
 
-<br/>
-
-<div align=center>
-<img src="./Screenshots/4.png" width=250 height=440 />
-</div>
-
-<br/>
-
-<div align=center>
-<img src="./Screenshots/5.png" width=250 height=440 />
-</div>
-
-<br/>
-
-<div align=center>
-<img src="./Screenshots/6.png" width=250 height=440 />
-</div>
-
-<br/>
-
-<div align=center>
-<img src="./Screenshots/7.png" width=250 height=440 />
-</div>
-
-<br/>
-
-<div align=center>
-<img src="./Screenshots/8.png" width=250 height=440 />
-</div>
-
-
-<br/>
-
-<div align=center>
-<img src="./Screenshots/9.png" width=250 height=440 />
-</div>
-
-<br/>
-
-<div align=center>
-<img src="./Screenshots/10.png" width=250 height=440 />
-</div>
-
-<br/>
-
-<div align=center>
-<img src="./Screenshots/11.png" width=250 height=440 />
-</div>
-
-<br/>
-
-<div align=center>
-<img src="./Screenshots/12.png" width=250 height=440 />
-</div>
-
-
-<br/>
-
-<div align=center>
-<img src="./Screenshots/13.png" width=250 height=440 />
-</div>
-
-
-<br/>
-
-<div align=center>
-<img src="./Screenshots/14.png" width=250 height=440 />
-</div>
 
 
