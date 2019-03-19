@@ -6,7 +6,9 @@
 
 ### 一、项目功能简介
 
-<img src="./Screenshots/app_icon.png" width=150 height=150/>
+![1](./Screenshots/app_icon.png)
+
+
 
 一款IM（即时通讯）APP，界面微仿微信，通过集成环信的SDK和EaseUI实现了其中的即时通讯功能，自己实现了MyIM中的业务逻辑处理和界面设计实现。实现的核心功能有：
 
@@ -18,7 +20,7 @@
 
 ### 二、项目运行效果
 
-<div align=center>
+<div align=left>
 <img src="./Screenshots/1.png" width=250 height=440 />
 </div>
 
@@ -30,7 +32,7 @@
 
 <br/>
 
-<div align=center>
+<div align=right>
 <img src="./Screenshots/3.png" width=250 height=440 />
 </div>
 
