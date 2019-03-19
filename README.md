@@ -20,21 +20,14 @@
 
 ### 二、项目运行效果
 
-<div align=left>
-<img src="./Screenshots/1.png" width=250 height=440 />
-</div>
 
-<br/>
+![1](./Screenshots/1.png)
+![2](./Screenshots/2.png)
+![3](./Screenshots/3.png)
 
-<div align=center>
-<img src="./Screenshots/2.png" width=250 height=440 />
-</div>
 
-<br/>
 
-<div align=right>
-<img src="./Screenshots/3.png" width=250 height=440 />
-</div>
+
 
 <br/>
 
