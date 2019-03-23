@@ -12,7 +12,7 @@
 >
 > > 后期有空的话打算使用 **Android端+纯后端** 实现一款不借助第三方即时通讯框架的IM app。
 
-### 一、项目功能简介
+### 一. 项目功能简介
 一款IM（即时通讯）APP，界面微仿微信，通过集成环信的SDK和EaseUI实现了其中的即时通讯功能，自己实现了MyIM中的业务逻辑处理和界面设计实现。实现的核心功能有：
 
 * 单聊
@@ -20,8 +20,11 @@
 * 添加好友
 * 新建群组
 
+<br/>
 
-### 二、项目运行效果
+***
+
+### 二. 项目运行效果
 
 <img src="./Screenshots/1.png" width = "250" height = "440" />&nbsp;<img src="./Screenshots/2.png" width = "250" height = "440" />&nbsp;<img src="./Screenshots/3.png" width = "250" height = "440" />
 
@@ -32,4 +35,23 @@
 <img src="./Screenshots/10.png" width = "250" height = "440" />&nbsp;<img src="./Screenshots/11.png" width = "250" height = "440" />&nbsp;<img src="./Screenshots/12.png" width = "250" height = "440" />
 
 <img src="./Screenshots/13.png" width = "250" height = "440" />&nbsp;<img src="./Screenshots/14.png" width = "250" height = "440" />
+
+
+<br/>
+
+***
+
+### 三. 当前版本
+
+v 1.0
+
+<br/>
+
+***
+
+### 四. APP 兼容性（使用Testin云测）
+
+![test1](./Screenshots/test1.jpg)
+
+![test2](./Screenshots/test2.jpg)
 
